@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block content %}
+<div class="main">
+    <p>블로그 글 작성 화면</p>
+    <form action="{% url 'blog:write' %}" method="post">
+        {% csrf_token %}
+        <table class="table write">
+          <colgroup>
+            <col style="width: 120px">
+            <col>
+          </colgroup>
+
+          <tr>
+            <th><label for="id_title">제목</label></th>
+            <td>
+              <input type="text" name="title" maxlength="30" required="" id="id_title">
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <th>
+              <label for="id_category">카테고리종류:</label>
+            </th>
+            <td>
+              <select name="category" id="id_category">
+                <option value="일상글" selected="">일상글</option>
+                <option value="공부글">공부글</option>
+              </select>
+            </td>    
+          </tr>
+        
+          
+          <tr>
+            <th>
+              <label for="id_content">내용</label>
+            </th>
+
+            <td>
+            <textarea name="content" cols="40" rows="10" required="" id="id_content"></textarea>
+          </td>
+          </tr>
+      </table>
+      <br>
+        <input type="submit" class="btn btn-outline-success" value="{% trans 'Submit' %}">
+    </form>
+</div>
+{% endblock %}
