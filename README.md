@@ -3,11 +3,6 @@
 - Django Framework를 사용해 블로그 개발
 
 
-## 개발 목적
-
-## 프로젝트 구성
-
-- 폴더트리
 
 
 ## 기능
@@ -16,8 +11,12 @@
 3. 게시글 작성, 조회, 삭제
 4. 게시글에 댓글 작성, 삭제
 
+## erd클라우드
+
 
 ## 화면
+index화면
+![image](https://github.com/RyuHyeonghwan/djangoproject/assets/74171208/985978a3-932c-45e3-9559-c95a7954f16b)
 
 
 ## 느낀점
