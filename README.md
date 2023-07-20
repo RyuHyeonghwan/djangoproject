@@ -8,6 +8,7 @@ Django Framework를 사용해 기술 블로그 개발
 2. 회원가입
 3. 게시글 작성, 조회, 삭제
 4. 게시글에 댓글 작성, 삭제
+5. 게시글에 해시테그 작성, 삭제
 
 ## erd클라우드
 ![image](https://github.com/RyuHyeonghwan/djangoproject/assets/74171208/e36ed236-a16d-4cab-9e96-5ee854377d9d)
