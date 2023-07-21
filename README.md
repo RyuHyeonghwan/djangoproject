@@ -35,4 +35,3 @@ index화면
 작성자가 아닌사람의 게시글화면
 ![image](https://github.com/RyuHyeonghwan/djangoproject/assets/74171208/68a2d597-4c39-4277-a628-b4e4263a31c7)
 
-
