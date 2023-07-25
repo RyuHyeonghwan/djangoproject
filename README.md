@@ -24,7 +24,7 @@ index화면
 ![image](https://github.com/RyuHyeonghwan/djangoproject/assets/74171208/4122aa3b-7029-4e95-b7e6-7719532d0af9)
 
 블로그화면
-![image](https://github.com/RyuHyeonghwan/djangoproject/assets/74171208/e8f9e3af-922e-42ee-ab5a-487cc487ce2b)
+![image](https://github.com/RyuHyeonghwan/djangoproject/assets/74171208/f73cc54f-32d1-423f-b5c0-589bb4262d27)
 
 글작성화면
 ![image](https://github.com/RyuHyeonghwan/djangoproject/assets/74171208/ae8210c1-47ee-4d70-9a42-eec395925572)
